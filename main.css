@@ -100,3 +100,16 @@ footer small {
   font-size: 90%;
   display: block;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 10px;
+    height: 565px;
+    padding-top: 0px;
+  }
+
+  input, button {
+    font-size: 14px;
+  }
+}
+
